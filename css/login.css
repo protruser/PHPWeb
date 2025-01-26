@@ -1,0 +1,73 @@
+body {
+    min-height: 95vh;
+    display: flex;
+    background-image: url('../img/landscape.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.95;
+}
+
+form {
+    border: 1px solid #000000;
+    box-shadow: 5px 5px 5px gray;
+    width: 500px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkslategrey;
+    font-size: 40px;
+    margin: 40px 0 10px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    font-family: 'Arial';
+    font-size: 12px;
+    margin: 0 15px;
+}
+
+#box {
+    align-content: center;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    display: block;
+    margin: 5px auto;
+    width: 90%;
+}
+
+input::placeholder {
+    color: darkgray;
+}
+
+label.login_button {
+    margin: 20px 15px;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    background-color: lightgray;
+}
+
+button:hover {
+    background-color: silver;
+}
+
+.register {
+    display: inline-block;
+    font-size: 12px;
+    text-decoration: none;
+    color: gray;
+    margin: 20px 0 10px;
+}
